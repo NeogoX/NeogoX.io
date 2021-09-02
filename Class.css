@@ -18,11 +18,12 @@ body{
 .HL{
 	position:absolute;
 	transform: translate(50%, 50%);
-	transition:all 0.8s;		
+		
 }
 .ani-slide .HL h1{
 	opacity:1;
 	    transform: translateX(200px);
+		transition:all 0.8s;	
 }
 .HL h1{
 	font-size:72px;

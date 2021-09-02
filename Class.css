@@ -1,20 +1,31 @@
 body{
 	overflow-x:hidden;
 }
+
+/*swiper全局*/
+.swiper-container{
+	height:100vh;
+}
+
+/*导航*/
+.Nav{
+	position:fixed;	
+	z-index: 10;
+}
+
+
+/*swiper内容*/
 .HL{
 		transform: translate(50%, 50%);
 	position:absolute;
 }
 .ani-slide .HL h1{
 	opacity:1;
-	    transform: translateX(-200px);
+	    transform: translateX(200px);
 }
 .HL h1{
 	font-size:72px;
 	color:#fff;
 	opacity:0;
-}
-.Nav{
-	position:fixed;	
-	z-index: 10;
+	transform: translateX(-400px);
 }

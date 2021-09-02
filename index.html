@@ -14,7 +14,7 @@
  
  
    <!-- Swiper -->
-<div class="swiper-container" id="swiper-container1">
+<div class="swiper mySwiper" id="swiper-container1">
 <div class="swiper-wrapper"> 
  <div class="swiper-slide">
  <div class="HL">
@@ -37,7 +37,13 @@
   <img src="https://neogox.github.io/NeogoX.io/image/Banner-3.webp" />
   </div>
   
-
+  <div class="swiper-slide">
+  <div class="swiper mySwiper2">
+  <div class="HL">
+ <h1>NeogoX</h1>
+ </div>
+  <img src="https://neogox.github.io/NeogoX.io/image/Banner-3.webp" />
+  </div>
  </div>
   </div>
   <!-- swiper JS -->
@@ -55,6 +61,15 @@
                 clickable: true,
             },
         });
+	var swiper2 = new swiper('.swiper-container'.{
+	 direction: "vertical",
+        slidesPerView: "auto",
+        freeMode: true,
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+        mousewheel: true,
+	}),	
 </script>
 </body>
 </html>

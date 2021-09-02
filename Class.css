@@ -1,7 +1,10 @@
-h1.HL{
+.HL{
+		transform: translate(50%, 50%);
+	position:absolute;
+}
+.HL h1{
 	font-size:72px;
 	color:#fff;
-	transform: translate(50%, 50%);
 }
 .Nav{
 	position:fixed;	

@@ -24,6 +24,7 @@ body{
 		
 }
 .swiper-slide-active .HL{
+	    top: 50%;
 	opacity:1;
 	    transform: translateX(200px);
 		transition:all 0.8s;	

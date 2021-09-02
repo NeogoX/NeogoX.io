@@ -3,7 +3,7 @@ body{
 }
 
 /*swiper全局*/
-.swiper-container{
+.mySwiper{
 	height:100vh;
 }
 

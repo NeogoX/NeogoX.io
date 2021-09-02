@@ -1,3 +1,8 @@
+h1.HL{
+	font-size:72px;
+	color:#fff;
+	transform: translate(50%, 50%);
+}
 .Nav{
 	position:fixed;	
 	z-index: 10;

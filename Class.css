@@ -16,18 +16,15 @@ body{
 
 /*swiper内容*/
 .HL{
+		font-size:72px;
+	color:#fff;
+		opacity:0;
 	position:absolute;
-	transform: translate(50%, 50%);
+	transform: translateX(-400px);
 		
 }
-.ani-slide .HL h1{
+.swiper-slide-active .HL{
 	opacity:1;
 	    transform: translateX(200px);
 		transition:all 0.8s;	
-}
-.HL h1{
-	font-size:72px;
-	color:#fff;
-	opacity:0;
-	transform: translateX(-400px);
 }

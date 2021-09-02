@@ -11,6 +11,9 @@
 
 <body>
  <div class="Nav"><img class="Logo" src="https://neogox.github.io/NeogoX.io/image/LOGO.png" /></div>
+ 
+ 
+   <!-- Swiper -->
 <div class="swiper-container top">
 <div class="swiper-wrapper"> 
  <div class="swiper-slide">
@@ -28,15 +31,43 @@
   </div>
  </div>
   </div>
-  <script>
-  var mySwiper = new Swiper('.swiper-container',{
-  freeMode: true,
-  mousewheel: {
-    sensitivity : 0.1,
-  },
-})
-  </script>
+  <!-- swiper JS -->
   <script src="swiper-6.8.1/swiper-master/package/swiper-bundle.min.js"></script>
+  
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container',{
+		direction : 'vertical',
+		followFinger : false,
+		speed:800,
+		mousewheel: true,
+		pagination : {
+			el:'.swiper-pagination',
+		},
+		on:{
+			init:function(swiper){
+		        slide=this.slides.eq(0);
+			    slide.addClass('ani-slide');
+		    },
+			transitionStart: function(){
+			    for(i=0;i<this.slides.length;i++){
+			    	slide=this.slides.eq(i);
+			        slide.removeClass('ani-slide');
+				}
+		    },
+			transitionEnd: function(){
+				slide=this.slides.eq(this.activeIndex);
+			    slide.addClass('ani-slide');
+				
+		    },
+		}
+    });
+
+</script>
+  
+  
+  
+  
   <div class="row">
     <div class="col-sm-7"><img src="https://neogox.github.io/NeogoX.io/image/2.jpg" /></div>
     <div class="col-sm-5"><img src="https://neogox.github.io/NeogoX.io/image/2.jpg" /></div>

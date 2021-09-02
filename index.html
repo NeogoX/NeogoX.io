@@ -36,21 +36,7 @@
  </div>
   <img src="https://neogox.github.io/NeogoX.io/image/Banner-3.webp" />
   </div>
-  
-  <div class="swiper-slide">
-  
-  <div class="swiper mySwiper2">
-  <div class="swiper-wrapper">
-   <div class="swiper-slide">
-  <div class="HL">
- <h1>NeogoX</h1>
- </div>
-  <img src="https://neogox.github.io/NeogoX.io/image/Banner-3.webp" />
-  </div>
-  </div>
-   <div class="swiper-scrollbar"></div>
- </div>
- </div>
+
   </div>
   </div>
   <!-- swiper JS -->
@@ -59,23 +45,15 @@
   <!-- Initialize Swiper -->
   <script>
   var swiper = new Swiper('.mySwiper', {
-            direction: 'vertical',
+   direction: "vertical",
+   slidesPerView: 1,
             spaceBetween: 30,     
             pagination: {
                 el: '.swiper-pagination',
             },
 		mousewheel: true,
         });
-	var swiper2 = new swiper('.mySwiper2',{
-	 direction: "vertical",
-        slidesPerView: "auto",
-        freeMode: true,
-		nested:true,
-        scrollbar: {
-          el: ".swiper-scrollbar",
-        },
-		mousewheel: true,
-	}),	
+	
 </script>
 </body>
 </html>

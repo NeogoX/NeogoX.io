@@ -5,12 +5,29 @@
 <title>NeogoX</title>
 <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
 <link rel="shortcut icon" href="https://neogox.github.io/NeogoX.io/image/icon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://github.com/NeogoX/NeogoX.io/blob/88d82efba4eb74977f3f4d860e4d74f61851e6b4/swiper-6.8.1/swiper-master/package/swiper-bundle.min.css">
 </head>
 
 <body>
- <div class="row">
-    <div class="col-sm-7"><img src="https://neogox.github.io/NeogoX.io/image/2.jpg"></div>
-    <div class="col-sm-5" style="background-color:lavenderblush;">.col-sm-3</div>
+<div class="swiper-container top">
+<div class="swiper-wrapper"> 
+ <div class="swiper-slide"><img src="https://neogox.github.io/NeogoX.io/image/2.jpg"></dvi>
+  <div class="swiper-slide">.col-sm-3</dvi>
+ </div>
   </div>
+  <script>
+  var mySwiper = new Swiper('.swiper-container top',{
+  freeMode: true,
+  mousewheel: {
+    sensitivity : 0.1,
+  },
+})
+  </script>
+  <script src="https://github.com/NeogoX/NeogoX.io/blob/88d82efba4eb74977f3f4d860e4d74f61851e6b4/swiper-6.8.1/swiper-master/package/swiper-bundle.min.js"></script>
+  <div class="row">
+    <div class="col-sm-7"><img src="https://neogox.github.io/NeogoX.io/image/2.jpg"></div>
+    <div class="col-sm-5"><img src="https://neogox.github.io/NeogoX.io/image/2.jpg"></div>
+  </div>
+  
 </body>
 </html>

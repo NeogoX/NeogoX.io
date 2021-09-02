@@ -5,9 +5,14 @@ body{
 		transform: translate(50%, 50%);
 	position:absolute;
 }
+.ani-slide .HL h1{
+	opacity:1;
+	    transform: translateX(-200px);
+}
 .HL h1{
 	font-size:72px;
 	color:#fff;
+	opacity:0;
 }
 .Nav{
 	position:fixed;	

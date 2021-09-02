@@ -16,8 +16,9 @@ body{
 
 /*swiper内容*/
 .HL{
-		transform: translate(50%, 50%);
 	position:absolute;
+	transform: translate(50%, 50%);
+	transition:all 0.8s;		
 }
 .ani-slide .HL h1{
 	opacity:1;

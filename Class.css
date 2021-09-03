@@ -1,7 +1,9 @@
 body{
 	overflow-x:hidden;
 }
-
+*{
+	font-family: 'Roboto', sans-serif;
+}
 /*swiper全局*/
 .mySwiper{
 	height:100vh;

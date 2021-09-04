@@ -16,7 +16,7 @@ body{
 	width:100%;
 	z-index:10;
 }
-.nav img{
+img.Logo{
 	height:80px;
 }
 /*swiper内容*/

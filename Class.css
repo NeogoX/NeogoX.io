@@ -11,8 +11,10 @@ body{
 
 /*导航*/
 .Nav{
-	position:fixed;	
-	z-index: 10;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:10;
 }
 #float_banner{
 	position:absolute;

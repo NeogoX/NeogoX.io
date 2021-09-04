@@ -16,12 +16,6 @@ body{
 	width:100%;
 	z-index:10;
 }
-#float_banner{
-	position:absolute;
-	top:0;
-	width:100%;
-	z-index:2;
-	}
 
 /*swiper内容*/
 .HL{

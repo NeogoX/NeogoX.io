@@ -11,11 +11,14 @@ body{
 
 /*导航*/
 .Nav{
-	position:fixed;	
-	z-index: 10;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:10;
 }
-
-
+img.Logo{
+	height:80px;
+}
 /*swiper内容*/
 .HL{
 		font-size:72px;

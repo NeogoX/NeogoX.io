@@ -34,6 +34,11 @@ img.Logo{
 	    transform: translateX(200px);
 		transition:all 0.8s;	
 }
+/* 图片列表 */
 .background1 {
     background: url(image/black.jpg);
+}
+.row.list img {
+    width: 100%;
+    height: auto;
 }

@@ -39,6 +39,7 @@ img.Logo{
 .background1 {
     background: url(image/black.jpg);
 	    height: 100vh;
+		display: flex;
 }
 .row.list{
     margin: auto;

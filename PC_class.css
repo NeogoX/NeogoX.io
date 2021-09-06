@@ -4,7 +4,7 @@ body{
 *{
 	font-family: 'Roboto', sans-serif;
 }
-@media screen and (min-width: 769px){
+@media only screen and (min-width: 769px){
 /*swiper全局*/
 .mySwiper{
 	height:100vh;

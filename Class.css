@@ -34,3 +34,6 @@ img.Logo{
 	    transform: translateX(200px);
 		transition:all 0.8s;	
 }
+.background1{
+	background:url(/image/background.jpg);
+}

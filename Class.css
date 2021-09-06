@@ -38,6 +38,11 @@ img.Logo{
 .background1 {
     background: url(image/black.jpg);
 }
+.row.list {
+    margin: auto;
+    padding: 5rem 0;
+     width: 80%;
+}
 .row.list img {
     width: 100%;
     height: auto;

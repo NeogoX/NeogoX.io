@@ -41,6 +41,11 @@ img.Logo{
 	    height: 100vh;
 		display: flex;
 }
+.background2{
+	background:url(image/Background2.jpg);
+	height: 100vh;
+		display: flex;
+}
 .row.list{
     margin: auto;
     padding: 5rem 0;

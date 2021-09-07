@@ -47,9 +47,13 @@ img.Logo{
 		display: flex;
 }
 .row.list{
-    margin: auto;
-    padding: 5rem 0;
-     width: 80%;
+width: 100%;
+    height: auto;
+    border: 10px #888 solid;
+    transition: all 0.8s;
+}
+.row.list:hover{
+	border:10px #fff solid;
 }
 .list{
     margin: auto;

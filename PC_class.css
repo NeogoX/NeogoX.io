@@ -40,6 +40,7 @@ img.Logo{
     background: url(image/black.jpg);
 	    height: 100vh;
 		display: flex;
+		    align-items: center;
 }
 .background2{
 	background:url(image/Backgroundop2.jpg);

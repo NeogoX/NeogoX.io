@@ -65,4 +65,7 @@ width: 100%;
 .row.list img:hover{
 	border:10px #fff solid;
 }
+h1.title {
+    text-align: center;
+}
 }

@@ -69,6 +69,11 @@ width: 100%;
 .row.list img:hover{
 	border:10px #fff solid;
 }
+.list span {
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
 h1.title {
 	font-size: 5em;
     font-weight: bold;

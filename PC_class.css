@@ -62,7 +62,7 @@ width: 100%;
 	    border: 10px #888 solid;
     transition: all 0.8s;
 }
-.row.list:hover img{
+.row.list img:hover{
 	border:10px #fff solid;
 }
 }

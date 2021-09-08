@@ -45,8 +45,10 @@ img.Logo{
 }
 .background2{
 	background:url(image/Backgroundop2.jpg);
-	height: 100vh;
+	    height: 100vh;
 		display: flex;
+		    align-items: center;
+			padding: 5em;
 }
 .row.list{
 width: 100%;

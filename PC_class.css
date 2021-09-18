@@ -14,13 +14,15 @@ body{
 .Nav {
     position: absolute;
     top: 0;
-    right: 0;
+   /* right: 0;*/
     width: 8%;
     height: 100vh;
     z-index: 10;
 }
 img.Logo{
-	height:80px;
+width: 100%;
+    height: auto;
+    padding: 1rem;
 }
 /*swiper内容*/
 .HL{

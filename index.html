@@ -12,8 +12,9 @@
 </head>
 <body>
 <!-- Nav -->
-<div class="Nav"><img class="Logo" src="https://neogox.github.io/NeogoX.io/image/LOGO.png" /></div>
- <div class="background1" id="my-element" data-paroller-factor="0.5" data-paroller-factor-xs="0.2" >
+<div class="Nav"><img class="Logo" src="https://neogox.github.io/NeogoX.io/image/LOGO.png" /><nav></nav></div>
+<div class="noe" style="background:#fff;height:100vh;"></div>
+ <div class="background1"  style="background: url('image/black.jpg') no-repeat center;background-size: cover;" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
  <h1 class="title">MY HOME</h1>
 <div class="row list">
   <div class="col-sm-3"><img src="image/mount2.jpg" /><span>Mount</span></div>
@@ -99,7 +100,7 @@ function drag(obj){
 };
 </script>
 <script>
-$("#my-element").paroller({ factor: 0.1, factorXs: 0.2, type: 'foreground', direction: 'vertical' });		
+$('.background1').paroller();
 </script>
 
 

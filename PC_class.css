@@ -64,15 +64,18 @@ width: 100%;
     width: 100%;
     height: auto;
 	    border: 10px #888 solid;
+		transform: scale(0.9);
     transition: all 0.8s;
 }
 .row.list img:hover{
 	border:10px #fff solid;
+	transform: scale(1);
 }
 .list span {
     font-size: 1.5em;
     text-align: center;
     display: block;
+	line-height: 2;
 }
 h1.title {
 	font-size: 5em;

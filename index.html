@@ -12,6 +12,11 @@
 </head>
 <body>
 <!-- Nav -->
+<div id="loading">
+    <div id="loading_bg">
+        <div class="loader">Loading...</div>
+    </div>
+</div>
 <div class="Nav"><img class="Logo" src="https://neogox.github.io/NeogoX.io/image/LOGO.png" /><nav></nav></div>
 <div class="noe" style="background:url('image/background00.webp') no-repeat center;height:100vh;"></div>
  <div class="background1"  style="background: url('image/black.jpg') no-repeat center;background-size: cover;" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
@@ -103,6 +108,29 @@ function drag(obj){
 $('.background1').paroller();
 </script>
 
+<script>
+//Loading页面
+document.onreadystatechange=function () {
+          if (document.readyState=="complete"){
+               loadingFade();
+          }
+}
+function loadingFade() {
+     var opacity=1;
+     //var loadingPage=document.getElementById('loading');
+     var loadingBackground=document.getElementById('loading_bg');
+     var time=setInterval(function () {
+          if (opacity<=0){
+               clearInterval(time);
+               //loadingPage.remove();
+               $('#loading').remove();
+          }
 
+          loadingBackground.style.opacity=opacity;
+          opacity-=0.4;
+     },100);
+}
+
+</script>
 </body>
 </html>

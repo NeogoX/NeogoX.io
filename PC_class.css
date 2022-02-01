@@ -27,7 +27,7 @@ body{
 //}
 
 .loader{
-    --size: 10px;
+    --size: 5px;
     --duration: 800ms;
 width: 200px;
     height: 200px;

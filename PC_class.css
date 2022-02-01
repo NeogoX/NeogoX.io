@@ -27,11 +27,11 @@ body{
 //}
 
 .loader{
-    --size: 32px;
+    --size: 55px;
     --duration: 800ms;
     width: 96px;
-    height: 64px;
-    margin: 50px auto;
+    height: 150px;
+    margin: 20% auto;
     transform-style: preserve-3d;
     transform-origin: 50% 50%;
     transform: rotateX(60deg) rotateZ(45deg) rotateY(0deg) translateZ(0px);

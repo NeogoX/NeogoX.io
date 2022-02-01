@@ -38,8 +38,8 @@ body{
     position: relative;
 }
 .loader .box{
-    width:  32px;
-    height: 32px;
+    width: 55px;
+    height: 55px;
     transform-style: preserve-3d;
     position: absolute;
     top: 0;

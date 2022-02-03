@@ -157,7 +157,7 @@ width: 100%;
 .background1 {
     background: url(image/black.jpg);
 	    height: 100vh;
-		display: flex;
+
 		    align-items: center;
 			padding: 5em;
 }

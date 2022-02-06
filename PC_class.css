@@ -25,7 +25,20 @@ body{
 //body {
 //  background: #eaecfa;
 //}
-
+/*LOGO*/
+.Nav {
+    position: absolute;
+    top: 0;
+   /* right: 0;*/
+    width: 8%;
+    height: 100vh;
+    z-index: 10;
+}
+img.Logo{
+width: 100%;
+    height: auto;
+    padding: 1rem;
+}
 .loader{
     --size: 5px;
     --duration: 800ms;
@@ -124,20 +137,7 @@ width: 200px;
 	height:100vh;
 }
 
-/*导航*/
-.Nav {
-    position: absolute;
-    top: 0;
-   /* right: 0;*/
-    width: 8%;
-    height: 100vh;
-    z-index: 10;
-}
-img.Logo{
-width: 100%;
-    height: auto;
-    padding: 1rem;
-}
+
 /*swiper内容*/
 .HL{
 		font-size:72px;

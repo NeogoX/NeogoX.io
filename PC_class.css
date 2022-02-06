@@ -190,12 +190,14 @@ width: 100%;
 	transform: scale(1);
 }
 .list span {
+	color:#fff;
     font-size: 1.5em;
     text-align: center;
     display: block;
 	line-height: 2;
 }
 h1.title {
+	color:#fff;
 	font-size: 5em;
     font-weight: bold;
     text-align: center;

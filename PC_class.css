@@ -1,5 +1,6 @@
 body{
 	overflow-x:hidden;
+	cursor:url(image/cursor.png)
 }
 *{
 	font-family: 'Roboto', sans-serif;

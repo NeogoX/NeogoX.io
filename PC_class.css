@@ -46,7 +46,7 @@ button.btn.btn-primary {
 .collapse {
 
     display: block !important;
-    position: fixed;
+   
     top: 0;
     left: -10px;
     width: 424px;
@@ -63,6 +63,7 @@ button.btn.btn-primary {
 }
 
 .collapse.show {
+	 position: fixed;
     transform: translate3d(0px, 0, 0);
 }
 img.Logo{   

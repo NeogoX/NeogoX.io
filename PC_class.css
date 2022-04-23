@@ -38,8 +38,33 @@ body{
     flex-wrap: nowrap;
     align-items: center;
 }
-img.Logo{
+.collapse {
+
+    display: block !important;
+    position: fixed;
+    top: 0;
+    right: -10px;
+    width: 424px;
+    height: 100%;
+    padding: 60px 1rem;
+    background-color: #fff;
+    border-left: 1px solid #e3e3e3;
+    text-align: center;
+    visibility: visible;
+    overflow-y: visible;
+    transform: translate3d(424px, 0, 0);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    z-index: 1032;
+}
+
+.collapse.show {
+    transform: translate3d(0px, 0, 0);
+}
+img.Logo{   
     padding: 1rem;
+    width: auto;
+    height: 100%;
+
 }
 .loader{
     --size: 5px;

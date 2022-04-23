@@ -9,12 +9,45 @@
 <link rel="shortcut icon" href="https://neogox.github.io/NeogoX.io/image/icon.png" type="image/x-icon">
 <link rel="stylesheet" href="swiper-6.8.1/swiper-master/package/swiper-bundle.min.css">
 <link href="https://fonts.font.im/css?family=Roboto:100,400" rel="stylesheet">
+
 </head>
 <body>
 <!-- Nav -->
+<div class="container" id="loading">
+    <div class="row"  id="loading_bg">
+        <div class="col-md-12">
+            <div class="loader">
+              <div class="box">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+              </div>
+              <div class="box">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+              </div>
+              <div class="box">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+              </div>
+              <div class="box">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="Nav"><img class="Logo" src="https://neogox.github.io/NeogoX.io/image/LOGO.png" /><nav></nav></div>
-<div class="noe" style="background:#fff;height:100vh;"></div>
- <div class="background1"  style="background: url('image/black.jpg') no-repeat center;background-size: cover;" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
+<div class="noe" style="background:url('image/background00.webp') no-repeat center;height:100vh;"></div>
+ <div class="background1"  style="background: url('image/page.jpg') no-repeat center;background-size: cover;" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
  <h1 class="title">MY HOME</h1>
 <div class="row list">
   <div class="col-sm-3"><img src="image/mount2.jpg" /><span>Mount</span></div>
@@ -37,7 +70,11 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="paroller.js-master/dist/jquery.paroller.min.js"></script>
 <script src="paroller.js-master/dist/jquery.paroller.js"></script>
+<<<<<<< HEAD
 <script src="paroller.js-master/dist/bootstrap.min.js"></script>
+=======
+<script src="paroller.js-master/dist/snowflakeCursor.js"></script>
+>>>>>>> e07659b20d5eb4b50ca2a8a7bce001dd3c433534
 <script>
 function drag(obj){
   obj.onmousedown = function(e){
@@ -98,13 +135,35 @@ function drag(obj){
       obj.setCapture();
     }
   }  
-}
-drag(test);
+};
 </script>
 <script>
 $('.background1').paroller();
 </script>
 
+<script>
+//Loading页面
+document.onreadystatechange=function () {
+          if (document.readyState=="complete"){
+               loadingFade();
+          }
+}
+function loadingFade() {
+     var opacity=1;
+     //var loadingPage=document.getElementById('loading');
+     var loadingBackground=document.getElementById('loading_bg');
+     var time=setInterval(function () {
+          if (opacity<=0){
+               clearInterval(time);
+               //loadingPage.remove();
+               $('#loading').remove();
+          }
 
+          loadingBackground.style.opacity=opacity;
+          opacity-=0.4;
+     },100);
+}
+
+</script>
 </body>
 </html>

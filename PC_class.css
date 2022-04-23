@@ -52,14 +52,14 @@ button.btn.btn-primary {
     width: 424px;
     height: 100%;
     padding: 60px 1rem;
-    background-color: #fff;
+    background-color: #000;
     border-left: 1px solid #e3e3e3;
     text-align: center;
     visibility: visible;
     overflow-y: visible;
     transform: translate3d(424px, 0, 0);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    z-index: 1032;
+    z-index: 1;
 }
 
 .collapse.show {
@@ -70,7 +70,7 @@ img.Logo{
     padding: 1rem;
     width: auto;
     height: 100%;
-
+z-index: 2;
 }
 .loader{
     --size: 5px;

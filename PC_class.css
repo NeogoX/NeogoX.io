@@ -39,7 +39,7 @@ body{
     align-items: center;
 	    padding: 0 1rem;
 }
-button.btn.btn-primary.collapsed {
+button.btn.btn-primary {
     margin-right: 0;
     margin-left: auto;
 }

@@ -6,7 +6,6 @@
 
 <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://neogox.github.io/NeogoX.io/PC_class.css">
-	<link rel="stylesheet" href="https://neogox.github.io/NeogoX.io/nav.css">
 <link rel="shortcut icon" href="https://neogox.github.io/NeogoX.io/image/icon.png" type="image/x-icon">
 <link rel="stylesheet" href="swiper-6.8.1/swiper-master/package/swiper-bundle.min.css">
 <link href="https://fonts.font.im/css?family=Roboto:100,400" rel="stylesheet">
@@ -48,40 +47,22 @@
 </div>
 	<!-- Nav -->
 <div class="Nav"><img class="Logo" src="https://neogox.github.io/NeogoX.io/image/LOGO.png" /><nav></nav></div>
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-offcanvas">
-  <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <ul class="navbar-nav navbar-top">
-          <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-          </li>
-      </ul>
-      <button class="navbar-toggler navbar-toggler-right navbar-icon" type="button" data-toggle="collapse" data-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="icon-bar bar1"></span>
-          <span class="icon-bar bar2"></span>
-          <span class="icon-bar bar3"></span>
-      </button>
-      <div class="navbar-collapse collapse ml-auto" id="navbar-mobile">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-image">
-                  <img src="logo.png" alt="">
-              </li>
-              <li class="nav-item">
-                  <a href="#!" class="nav-link">Link 1</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#!" class="nav-link">Link 2</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#!" class="nav-link">Link 3</a>
-              </li>
-          </ul>
-      </div>
+	
+	
+	<button class="navbar-toggler navbar-toggler-right navbar-icon collapsed" type="button" data-toggle="collapse" data-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
+		            <span class="icon-bar bar1"></span>
+		            <span class="icon-bar bar2"></span>
+		            <span class="icon-bar bar3"></span>
+		        </button>
+	
+	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-target
+  </button>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
   </div>
-</nav>
+</div>
 		<!-- Nav -->
 
 	<div class="wrapper">
@@ -111,7 +92,7 @@
 <script src="paroller.js-master/dist/jquery.paroller.js"></script>
 <script src="paroller.js-master/dist/bootstrap.min.js"></script>
 <script src="paroller.js-master/dist/snowflakeCursor.js"></script>
-	<script src="paroller.js-master/dist/Nav.js"></script>
+
 <script>
 function drag(obj){
   obj.onmousedown = function(e){

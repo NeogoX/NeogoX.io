@@ -86,7 +86,7 @@ a.nav-left-link {
     display: inline-block;
 }
 li.nav-left-item {
-    line-height: 2;
+    line-height: 10;
     margin: 10px auto;
     background: #eeee;
 }

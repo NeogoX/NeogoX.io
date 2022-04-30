@@ -46,7 +46,7 @@ button.btn.btn-primary {
 .collapse {
 
     display: block !important;
-   
+   opacity:0;
     top: 0;
     left: -10px;
     width: 424px;
@@ -65,6 +65,7 @@ button.btn.btn-primary {
 .collapse.show {
 	 position: fixed;
     transform: translate3d(0px, 0, 0);
+	 opacity:1;
 }
 img.Logo{   
     padding: 1rem;

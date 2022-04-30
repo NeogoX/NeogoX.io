@@ -73,6 +73,24 @@ img.Logo{
     height: 100%;
 z-index: 2;
 }
+ul.nav-left {
+	width: 100%;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+	margin: auto;
+}
+a.nav-left-link {
+	text-decoration: none;
+    width: 100%;
+    display: inline-block;
+}
+li.nav-left-item {
+
+    line-height: 2;
+    margin: 10px auto;
+    background: #eeee;
+}
 .card-body{
     top: 10%;	
 }

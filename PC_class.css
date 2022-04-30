@@ -74,11 +74,12 @@ img.Logo{
 z-index: 2;
 }
 ul.nav-left {
-	width: 100%;
-    display: inline-block;
+    width: 100%;
+    display: inline-flex;
     list-style: none;
     padding: 0;
-	
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 a.nav-left-link {
 	text-decoration: none;
@@ -86,7 +87,8 @@ a.nav-left-link {
     display: inline-block;
 }
 li.nav-left-item {
-    line-height: 10;
+    width: 100%;
+    line-height: 4;
     margin: 10px auto;
     background: #eeee;
 }

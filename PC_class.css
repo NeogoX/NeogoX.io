@@ -209,10 +209,33 @@ header {
   font-family: 'Sucrose Bold Two';
 }
 .noe img {
+	position: relative;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+.noe .man1 {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 45.8%;
+	left:0;
+	width: auto;
+}
+.noe .man2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left:0;
+	width: auto;
+	display:none;
+}
+.noe .man3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left:0;
+	width: auto;
+	display:none;
 }
 .noe h1 {
     position: fixed;

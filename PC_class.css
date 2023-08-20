@@ -261,7 +261,18 @@ main {
   padding: 2rem 25%;
   line-height: 1.6;
 }
-
+.blockone {
+  
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  top: 125vh;
+  left: 25vw;
+  transition: opacity 1s;
+  opacity: .2;
+  background: blue;
+  
+}
 
 /********************************/
 

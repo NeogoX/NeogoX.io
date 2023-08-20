@@ -3,9 +3,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("du").style.top = "0";
+    document.getElementById("du").style.top = "1500px";
   } else {
-    document.getElementById("du").style.top = "-50px";
+    document.getElementById("du").style.top = "-250px";
   }
   prevScrollpos = currentScrollPos;
 }

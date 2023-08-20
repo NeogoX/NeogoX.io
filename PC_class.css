@@ -273,7 +273,12 @@ main {
   background: blue;
   z-index: -2;
 }
-
+.background2 img {
+	position: relative;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
 /********************************/
 
 @media all and (max-width: 400px) {
@@ -312,12 +317,12 @@ main {
 			padding: 5em;
 }
 .background2{
-	
 	    height: 100vh;
 		display: flex;
 		    align-items: center;
 			padding: 5em;
 }
+
 .row.list{
 width: 100%;
     height: auto;

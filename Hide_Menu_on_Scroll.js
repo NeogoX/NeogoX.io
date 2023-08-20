@@ -11,7 +11,7 @@ function inViewport( element ){
   
 }
 
-var myElement = document.querySelector( 'div' );
+var myElement = document.querySelector( '.blockone' );
 
 // Listen for the scroll event
 

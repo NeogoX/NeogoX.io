@@ -274,10 +274,12 @@ main {
   z-index: -2;
 }
 .background2 img {
-	position: relative;
-	top: 0;
-	right: 0;
-	width: 100%;
+position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: -2;
 }
 /********************************/
 
@@ -319,13 +321,15 @@ main {
 .background2{
 	    height: 100vh;
 		display: flex;
-		    align-items: center;
-			padding: 5em;
+		align-items: center;
+		padding: 5em;    
+		position: relative;
 }
 
 .row.list{
 width: 100%;
     height: auto;
+	z-index:-2;
 
 }
 .list{

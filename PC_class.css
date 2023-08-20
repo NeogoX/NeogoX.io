@@ -239,13 +239,14 @@ header {
 	display:none;
 }
 .noe h1 {
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
+ position: fixed;
+    top: 10rem;
+    right: 20rem;
     font-size: 12vw;
     line-height: .8;
     margin-top: 0;
     text-align: center;
+    z-index: -1;
 }
 .noe h1 span {
   display: block;

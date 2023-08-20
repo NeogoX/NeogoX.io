@@ -271,7 +271,7 @@ main {
   transition: opacity 1s;
   opacity: .2;
   background: blue;
-  
+  z-index: -2;
 }
 
 /********************************/
